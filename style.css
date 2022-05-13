@@ -1,0 +1,2692 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: #020211;
+  --text-color: #ddd;
+  --secondary-color: #030312;
+  --elem-color: #08081E;
+  --st-accent-color: #2220A5;
+  --nd-accent-color: #1311B8;
+  --shadow-color: rgba(27,27,27, 0.6);
+  --border-radius: 8px;
+}
+
+.random {
+  border-radius: var(--random-radius);
+  aspect-ratio: 1/1;
+  border-radius: 9999px;
+  box-shadow: 0px 0px 5px white;
+  z-index: -1;
+  position: fixed;
+}
+
+.star-0 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.star-1 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+}
+
+.star-2 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.star-3 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.star-4 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.star-5 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.star-6 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.star-7 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+
+.star-8 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.star-9 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+.star-10 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.star-11 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.55s;
+          animation-delay: 0.55s;
+}
+
+.star-12 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.star-13 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.65s;
+          animation-delay: 0.65s;
+}
+
+.star-14 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.star-15 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.star-16 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.star-17 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.85s;
+          animation-delay: 0.85s;
+}
+
+.star-18 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.star-19 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 0.95s;
+          animation-delay: 0.95s;
+}
+
+.star-20 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.star-21 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s;
+}
+
+.star-22 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.star-23 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.15s;
+          animation-delay: 1.15s;
+}
+
+.star-24 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.star-25 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.star-26 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+
+.star-27 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.35s;
+          animation-delay: 1.35s;
+}
+
+.star-28 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.star-29 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.45s;
+          animation-delay: 1.45s;
+}
+
+.star-30 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.star-31 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.55s;
+          animation-delay: 1.55s;
+}
+
+.star-32 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.star-33 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.65s;
+          animation-delay: 1.65s;
+}
+
+.star-34 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+.star-35 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.star-36 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+.star-37 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.85s;
+          animation-delay: 1.85s;
+}
+
+.star-38 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+
+.star-39 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 1.95s;
+          animation-delay: 1.95s;
+}
+
+.star-40 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.star-41 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.05s;
+          animation-delay: 2.05s;
+}
+
+.star-42 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.star-43 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.15s;
+          animation-delay: 2.15s;
+}
+
+.star-44 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+
+.star-45 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+}
+
+.star-46 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+
+.star-47 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.35s;
+          animation-delay: 2.35s;
+}
+
+.star-48 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.star-49 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.45s;
+          animation-delay: 2.45s;
+}
+
+.star-50 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.star-51 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.55s;
+          animation-delay: 2.55s;
+}
+
+.star-52 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+
+.star-53 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.65s;
+          animation-delay: 2.65s;
+}
+
+.star-54 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+
+.star-55 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.75s;
+          animation-delay: 2.75s;
+}
+
+.star-56 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+
+.star-57 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.85s;
+          animation-delay: 2.85s;
+}
+
+.star-58 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
+}
+
+.star-59 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 2.95s;
+          animation-delay: 2.95s;
+}
+
+.star-60 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.star-61 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.05s;
+          animation-delay: 3.05s;
+}
+
+.star-62 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.1s;
+          animation-delay: 3.1s;
+}
+
+.star-63 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.15s;
+          animation-delay: 3.15s;
+}
+
+.star-64 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+
+.star-65 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.25s;
+          animation-delay: 3.25s;
+}
+
+.star-66 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+}
+
+.star-67 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.35s;
+          animation-delay: 3.35s;
+}
+
+.star-68 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.4s;
+          animation-delay: 3.4s;
+}
+
+.star-69 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.45s;
+          animation-delay: 3.45s;
+}
+
+.star-70 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+.star-71 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.55s;
+          animation-delay: 3.55s;
+}
+
+.star-72 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.6s;
+          animation-delay: 3.6s;
+}
+
+.star-73 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.65s;
+          animation-delay: 3.65s;
+}
+
+.star-74 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.7s;
+          animation-delay: 3.7s;
+}
+
+.star-75 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.75s;
+          animation-delay: 3.75s;
+}
+
+.star-76 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.8s;
+          animation-delay: 3.8s;
+}
+
+.star-77 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.85s;
+          animation-delay: 3.85s;
+}
+
+.star-78 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.9s;
+          animation-delay: 3.9s;
+}
+
+.star-79 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 3.95s;
+          animation-delay: 3.95s;
+}
+
+.star-80 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.star-81 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.05s;
+          animation-delay: 4.05s;
+}
+
+.star-82 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.1s;
+          animation-delay: 4.1s;
+}
+
+.star-83 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.15s;
+          animation-delay: 4.15s;
+}
+
+.star-84 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.2s;
+          animation-delay: 4.2s;
+}
+
+.star-85 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.25s;
+          animation-delay: 4.25s;
+}
+
+.star-86 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.3s;
+          animation-delay: 4.3s;
+}
+
+.star-87 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.35s;
+          animation-delay: 4.35s;
+}
+
+.star-88 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
+}
+
+.star-89 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.45s;
+          animation-delay: 4.45s;
+}
+
+.star-90 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+.star-91 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.55s;
+          animation-delay: 4.55s;
+}
+
+.star-92 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.6s;
+          animation-delay: 4.6s;
+}
+
+.star-93 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.65s;
+          animation-delay: 4.65s;
+}
+
+.star-94 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.7s;
+          animation-delay: 4.7s;
+}
+
+.star-95 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.75s;
+          animation-delay: 4.75s;
+}
+
+.star-96 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.8s;
+          animation-delay: 4.8s;
+}
+
+.star-97 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.85s;
+          animation-delay: 4.85s;
+}
+
+.star-98 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.9s;
+          animation-delay: 4.9s;
+}
+
+.star-99 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 4.95s;
+          animation-delay: 4.95s;
+}
+
+.star-100 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.star-101 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.05s;
+          animation-delay: 5.05s;
+}
+
+.star-102 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
+}
+
+.star-103 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.15s;
+          animation-delay: 5.15s;
+}
+
+.star-104 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+
+.star-105 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.25s;
+          animation-delay: 5.25s;
+}
+
+.star-106 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.3s;
+          animation-delay: 5.3s;
+}
+
+.star-107 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.35s;
+          animation-delay: 5.35s;
+}
+
+.star-108 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+
+.star-109 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.45s;
+          animation-delay: 5.45s;
+}
+
+.star-110 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+
+.star-111 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.55s;
+          animation-delay: 5.55s;
+}
+
+.star-112 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.6s;
+          animation-delay: 5.6s;
+}
+
+.star-113 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.65s;
+          animation-delay: 5.65s;
+}
+
+.star-114 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.7s;
+          animation-delay: 5.7s;
+}
+
+.star-115 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.75s;
+          animation-delay: 5.75s;
+}
+
+.star-116 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.8s;
+          animation-delay: 5.8s;
+}
+
+.star-117 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.85s;
+          animation-delay: 5.85s;
+}
+
+.star-118 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.9s;
+          animation-delay: 5.9s;
+}
+
+.star-119 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 5.95s;
+          animation-delay: 5.95s;
+}
+
+.star-120 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.star-121 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.05s;
+          animation-delay: 6.05s;
+}
+
+.star-122 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.1s;
+          animation-delay: 6.1s;
+}
+
+.star-123 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.15s;
+          animation-delay: 6.15s;
+}
+
+.star-124 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.2s;
+          animation-delay: 6.2s;
+}
+
+.star-125 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.25s;
+          animation-delay: 6.25s;
+}
+
+.star-126 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.3s;
+          animation-delay: 6.3s;
+}
+
+.star-127 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.35s;
+          animation-delay: 6.35s;
+}
+
+.star-128 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.4s;
+          animation-delay: 6.4s;
+}
+
+.star-129 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.45s;
+          animation-delay: 6.45s;
+}
+
+.star-130 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+}
+
+.star-131 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.55s;
+          animation-delay: 6.55s;
+}
+
+.star-132 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.6s;
+          animation-delay: 6.6s;
+}
+
+.star-133 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.65s;
+          animation-delay: 6.65s;
+}
+
+.star-134 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.7s;
+          animation-delay: 6.7s;
+}
+
+.star-135 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.75s;
+          animation-delay: 6.75s;
+}
+
+.star-136 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.8s;
+          animation-delay: 6.8s;
+}
+
+.star-137 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.85s;
+          animation-delay: 6.85s;
+}
+
+.star-138 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.9s;
+          animation-delay: 6.9s;
+}
+
+.star-139 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 6.95s;
+          animation-delay: 6.95s;
+}
+
+.star-140 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.star-141 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.05s;
+          animation-delay: 7.05s;
+}
+
+.star-142 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.1s;
+          animation-delay: 7.1s;
+}
+
+.star-143 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.15s;
+          animation-delay: 7.15s;
+}
+
+.star-144 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.2s;
+          animation-delay: 7.2s;
+}
+
+.star-145 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.25s;
+          animation-delay: 7.25s;
+}
+
+.star-146 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.3s;
+          animation-delay: 7.3s;
+}
+
+.star-147 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.35s;
+          animation-delay: 7.35s;
+}
+
+.star-148 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.4s;
+          animation-delay: 7.4s;
+}
+
+.star-149 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.45s;
+          animation-delay: 7.45s;
+}
+
+.star-150 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
+}
+
+.star-151 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.55s;
+          animation-delay: 7.55s;
+}
+
+.star-152 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.6s;
+          animation-delay: 7.6s;
+}
+
+.star-153 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.65s;
+          animation-delay: 7.65s;
+}
+
+.star-154 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.7s;
+          animation-delay: 7.7s;
+}
+
+.star-155 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.75s;
+          animation-delay: 7.75s;
+}
+
+.star-156 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.8s;
+          animation-delay: 7.8s;
+}
+
+.star-157 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.85s;
+          animation-delay: 7.85s;
+}
+
+.star-158 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.9s;
+          animation-delay: 7.9s;
+}
+
+.star-159 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 7.95s;
+          animation-delay: 7.95s;
+}
+
+.star-160 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.star-161 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.05s;
+          animation-delay: 8.05s;
+}
+
+.star-162 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.1s;
+          animation-delay: 8.1s;
+}
+
+.star-163 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.15s;
+          animation-delay: 8.15s;
+}
+
+.star-164 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.2s;
+          animation-delay: 8.2s;
+}
+
+.star-165 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.25s;
+          animation-delay: 8.25s;
+}
+
+.star-166 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.3s;
+          animation-delay: 8.3s;
+}
+
+.star-167 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.35s;
+          animation-delay: 8.35s;
+}
+
+.star-168 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.4s;
+          animation-delay: 8.4s;
+}
+
+.star-169 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.45s;
+          animation-delay: 8.45s;
+}
+
+.star-170 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.5s;
+          animation-delay: 8.5s;
+}
+
+.star-171 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.55s;
+          animation-delay: 8.55s;
+}
+
+.star-172 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.6s;
+          animation-delay: 8.6s;
+}
+
+.star-173 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.65s;
+          animation-delay: 8.65s;
+}
+
+.star-174 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.7s;
+          animation-delay: 8.7s;
+}
+
+.star-175 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.75s;
+          animation-delay: 8.75s;
+}
+
+.star-176 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.8s;
+          animation-delay: 8.8s;
+}
+
+.star-177 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.85s;
+          animation-delay: 8.85s;
+}
+
+.star-178 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.9s;
+          animation-delay: 8.9s;
+}
+
+.star-179 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 8.95s;
+          animation-delay: 8.95s;
+}
+
+.star-180 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+}
+
+.star-181 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.05s;
+          animation-delay: 9.05s;
+}
+
+.star-182 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.1s;
+          animation-delay: 9.1s;
+}
+
+.star-183 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.15s;
+          animation-delay: 9.15s;
+}
+
+.star-184 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.2s;
+          animation-delay: 9.2s;
+}
+
+.star-185 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.25s;
+          animation-delay: 9.25s;
+}
+
+.star-186 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.3s;
+          animation-delay: 9.3s;
+}
+
+.star-187 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.35s;
+          animation-delay: 9.35s;
+}
+
+.star-188 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.4s;
+          animation-delay: 9.4s;
+}
+
+.star-189 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.45s;
+          animation-delay: 9.45s;
+}
+
+.star-190 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.5s;
+          animation-delay: 9.5s;
+}
+
+.star-191 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.55s;
+          animation-delay: 9.55s;
+}
+
+.star-192 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.6s;
+          animation-delay: 9.6s;
+}
+
+.star-193 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.65s;
+          animation-delay: 9.65s;
+}
+
+.star-194 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.7s;
+          animation-delay: 9.7s;
+}
+
+.star-195 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.75s;
+          animation-delay: 9.75s;
+}
+
+.star-196 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.8s;
+          animation-delay: 9.8s;
+}
+
+.star-197 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.85s;
+          animation-delay: 9.85s;
+}
+
+.star-198 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.9s;
+          animation-delay: 9.9s;
+}
+
+.star-199 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 9.95s;
+          animation-delay: 9.95s;
+}
+
+.star-200 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.star-201 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.05s;
+          animation-delay: 10.05s;
+}
+
+.star-202 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.1s;
+          animation-delay: 10.1s;
+}
+
+.star-203 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.15s;
+          animation-delay: 10.15s;
+}
+
+.star-204 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.2s;
+          animation-delay: 10.2s;
+}
+
+.star-205 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.25s;
+          animation-delay: 10.25s;
+}
+
+.star-206 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.3s;
+          animation-delay: 10.3s;
+}
+
+.star-207 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.35s;
+          animation-delay: 10.35s;
+}
+
+.star-208 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.4s;
+          animation-delay: 10.4s;
+}
+
+.star-209 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.45s;
+          animation-delay: 10.45s;
+}
+
+.star-210 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.5s;
+          animation-delay: 10.5s;
+}
+
+.star-211 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.55s;
+          animation-delay: 10.55s;
+}
+
+.star-212 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.6s;
+          animation-delay: 10.6s;
+}
+
+.star-213 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.65s;
+          animation-delay: 10.65s;
+}
+
+.star-214 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.7s;
+          animation-delay: 10.7s;
+}
+
+.star-215 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.75s;
+          animation-delay: 10.75s;
+}
+
+.star-216 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.8s;
+          animation-delay: 10.8s;
+}
+
+.star-217 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.85s;
+          animation-delay: 10.85s;
+}
+
+.star-218 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.9s;
+          animation-delay: 10.9s;
+}
+
+.star-219 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 10.95s;
+          animation-delay: 10.95s;
+}
+
+.star-220 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+
+.star-221 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.05s;
+          animation-delay: 11.05s;
+}
+
+.star-222 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.1s;
+          animation-delay: 11.1s;
+}
+
+.star-223 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.15s;
+          animation-delay: 11.15s;
+}
+
+.star-224 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.2s;
+          animation-delay: 11.2s;
+}
+
+.star-225 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.25s;
+          animation-delay: 11.25s;
+}
+
+.star-226 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.3s;
+          animation-delay: 11.3s;
+}
+
+.star-227 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.35s;
+          animation-delay: 11.35s;
+}
+
+.star-228 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.4s;
+          animation-delay: 11.4s;
+}
+
+.star-229 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.45s;
+          animation-delay: 11.45s;
+}
+
+.star-230 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.5s;
+          animation-delay: 11.5s;
+}
+
+.star-231 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.55s;
+          animation-delay: 11.55s;
+}
+
+.star-232 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.6s;
+          animation-delay: 11.6s;
+}
+
+.star-233 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.65s;
+          animation-delay: 11.65s;
+}
+
+.star-234 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.7s;
+          animation-delay: 11.7s;
+}
+
+.star-235 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.75s;
+          animation-delay: 11.75s;
+}
+
+.star-236 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.8s;
+          animation-delay: 11.8s;
+}
+
+.star-237 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.85s;
+          animation-delay: 11.85s;
+}
+
+.star-238 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.9s;
+          animation-delay: 11.9s;
+}
+
+.star-239 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 11.95s;
+          animation-delay: 11.95s;
+}
+
+.star-240 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.star-241 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.05s;
+          animation-delay: 12.05s;
+}
+
+.star-242 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.1s;
+          animation-delay: 12.1s;
+}
+
+.star-243 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.15s;
+          animation-delay: 12.15s;
+}
+
+.star-244 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.2s;
+          animation-delay: 12.2s;
+}
+
+.star-245 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.25s;
+          animation-delay: 12.25s;
+}
+
+.star-246 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.3s;
+          animation-delay: 12.3s;
+}
+
+.star-247 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.35s;
+          animation-delay: 12.35s;
+}
+
+.star-248 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.4s;
+          animation-delay: 12.4s;
+}
+
+.star-249 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.45s;
+          animation-delay: 12.45s;
+}
+
+.star-250 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.5s;
+          animation-delay: 12.5s;
+}
+
+.star-251 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.55s;
+          animation-delay: 12.55s;
+}
+
+.star-252 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.6s;
+          animation-delay: 12.6s;
+}
+
+.star-253 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.65s;
+          animation-delay: 12.65s;
+}
+
+.star-254 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.7s;
+          animation-delay: 12.7s;
+}
+
+.star-255 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.75s;
+          animation-delay: 12.75s;
+}
+
+.star-256 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.8s;
+          animation-delay: 12.8s;
+}
+
+.star-257 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.85s;
+          animation-delay: 12.85s;
+}
+
+.star-258 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.9s;
+          animation-delay: 12.9s;
+}
+
+.star-259 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 12.95s;
+          animation-delay: 12.95s;
+}
+
+.star-260 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13s;
+          animation-delay: 13s;
+}
+
+.star-261 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.05s;
+          animation-delay: 13.05s;
+}
+
+.star-262 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.1s;
+          animation-delay: 13.1s;
+}
+
+.star-263 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.15s;
+          animation-delay: 13.15s;
+}
+
+.star-264 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.2s;
+          animation-delay: 13.2s;
+}
+
+.star-265 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.25s;
+          animation-delay: 13.25s;
+}
+
+.star-266 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.3s;
+          animation-delay: 13.3s;
+}
+
+.star-267 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.35s;
+          animation-delay: 13.35s;
+}
+
+.star-268 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.4s;
+          animation-delay: 13.4s;
+}
+
+.star-269 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.45s;
+          animation-delay: 13.45s;
+}
+
+.star-270 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.5s;
+          animation-delay: 13.5s;
+}
+
+.star-271 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.55s;
+          animation-delay: 13.55s;
+}
+
+.star-272 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.6s;
+          animation-delay: 13.6s;
+}
+
+.star-273 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.65s;
+          animation-delay: 13.65s;
+}
+
+.star-274 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.7s;
+          animation-delay: 13.7s;
+}
+
+.star-275 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.75s;
+          animation-delay: 13.75s;
+}
+
+.star-276 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.8s;
+          animation-delay: 13.8s;
+}
+
+.star-277 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.85s;
+          animation-delay: 13.85s;
+}
+
+.star-278 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.9s;
+          animation-delay: 13.9s;
+}
+
+.star-279 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 13.95s;
+          animation-delay: 13.95s;
+}
+
+.star-280 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
+}
+
+.star-281 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.05s;
+          animation-delay: 14.05s;
+}
+
+.star-282 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.1s;
+          animation-delay: 14.1s;
+}
+
+.star-283 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.15s;
+          animation-delay: 14.15s;
+}
+
+.star-284 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.2s;
+          animation-delay: 14.2s;
+}
+
+.star-285 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.25s;
+          animation-delay: 14.25s;
+}
+
+.star-286 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.3s;
+          animation-delay: 14.3s;
+}
+
+.star-287 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.35s;
+          animation-delay: 14.35s;
+}
+
+.star-288 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.4s;
+          animation-delay: 14.4s;
+}
+
+.star-289 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.45s;
+          animation-delay: 14.45s;
+}
+
+.star-290 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.5s;
+          animation-delay: 14.5s;
+}
+
+.star-291 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.55s;
+          animation-delay: 14.55s;
+}
+
+.star-292 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.6s;
+          animation-delay: 14.6s;
+}
+
+.star-293 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.65s;
+          animation-delay: 14.65s;
+}
+
+.star-294 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.7s;
+          animation-delay: 14.7s;
+}
+
+.star-295 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.75s;
+          animation-delay: 14.75s;
+}
+
+.star-296 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.8s;
+          animation-delay: 14.8s;
+}
+
+.star-297 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.85s;
+          animation-delay: 14.85s;
+}
+
+.star-298 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.9s;
+          animation-delay: 14.9s;
+}
+
+.star-299 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 14.95s;
+          animation-delay: 14.95s;
+}
+
+.star-300 {
+  opacity: 0;
+  -webkit-animation: blink 1s linear infinite alternate;
+          animation: blink 1s linear infinite alternate;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.welcome-section {
+  flex-direction: column;
+  align-items: flex-start !important;
+  margin-left: 10vw;
+  padding-inline: 20px;
+  gap: 50px;
+}
+.welcome-section p {
+  font-size: 2.5rem;
+}
+.welcome-section p span {
+  text-shadow: 0px 0px 20px #fff;
+}
+.welcome-section input {
+  background-color: #08081E;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  width: min(100%, 200px);
+  height: 80px;
+  font-size: 3rem;
+  border-radius: var(--border-radius);
+}
+.welcome-section input:focus {
+  filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.3));
+}
+.welcome-section .button {
+  background-image: linear-gradient(-220deg, var(--secondary-color), var(--elem-color));
+  border: 1px solid #fff;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  width: 100px;
+  color: var(--txt-color);
+}
+.welcome-section .button:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 10px #fff;
+  filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.3));
+}
+.welcome-section .button:active {
+  text-shadow: 0px 0px 5px #fff;
+  filter: drop-shadow(2px 2px 10px rgba(255, 255, 255, 0.5));
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .section-container {
+  opacity: 0;
+  transition: 300ms ease-in-out;
+  transform: translateX(20%);
+  position: relative;
+  height: 800px;
+  width: min(100% - 2rem, 1200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--border-radius);
+  background-image: linear-gradient(-220deg, var(--secondary-color), var(--elem-color));
+  padding: 50px;
+  gap: 50px;
+}
+.section .section-container::before {
+  transition: 300ms linear;
+  transition-delay: 400ms;
+  opacity: 0;
+  content: "";
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+  border-width: 15px;
+  border-style: solid;
+  filter: drop-shadow(-3px 3px 10px var(--nd-accent-color));
+  -o-border-image: linear-gradient(to right, var(--nd-accent-color), var(--st-accent-color));
+     border-image: linear-gradient(to right, var(--nd-accent-color), var(--st-accent-color));
+  border-right: transparent;
+  border-top: transparent;
+  border-image-slice: 1;
+}
+.section .section-container::after {
+  transition: 300ms linear;
+  transition-delay: 700ms;
+  opacity: 0;
+  content: "";
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  border-width: 15px;
+  border-style: solid;
+  filter: drop-shadow(0px 0px 10px var(--nd-accent-color));
+  -o-border-image: linear-gradient(to right, var(--st-accent-color), var(--nd-accent-color));
+     border-image: linear-gradient(to right, var(--st-accent-color), var(--nd-accent-color));
+  border-left: transparent;
+  border-bottom: transparent;
+  border-image-slice: 1;
+}
+.section .section-container.active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.section .section-container.active::before {
+  opacity: 1;
+}
+.section .section-container.active::after {
+  opacity: 1;
+}
+.section .section-container.active .section-title {
+  transition: 300ms linear;
+  transform: translateY(0%);
+  transition-delay: 500ms;
+  opacity: 1;
+}
+.section .section-container.active .section-content .left {
+  opacity: 1;
+  transition: 500ms ease-in-out;
+  transform: translateX(0%);
+  transition-delay: 1000ms;
+}
+.section .section-container.active .section-content .right {
+  opacity: 1;
+  transition: 500ms ease-in-out;
+  transform: translateX(0%);
+  transition-delay: 1600ms;
+}
+.section .section-container .section-title {
+  font-size: 4rem;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.section .section-container .section-title p {
+  background-image: linear-gradient(to right, var(--st-accent-color), var(--nd-accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section .section-container .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.section .section-container .section-content .left p, .section .section-container .section-content .right p {
+  padding-top: 50px;
+  line-height: 2;
+  font-size: 1.4rem;
+}
+.section .section-container .section-content .left img, .section .section-container .section-content .right img {
+  border-radius: var(--border-radius);
+  filter: drop-shadow(0px 0px 10px var(--shadow-color));
+}
+.section .section-container .section-content .left {
+  opacity: 0;
+  transition: 300ms ease-in-out;
+  transform: translateX(-20%);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 100%;
+}
+.section .section-container .section-content .right {
+  opacity: 0;
+  transition: 300ms ease-in-out;
+  transform: translateX(20%);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 100%;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 1120px) {
+  body .section {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  body .section .section-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  body .section .section-container .section-content {
+    flex-direction: column;
+  }
+  body .section .section-container .section-content .left img, body .section .section-container .section-content .right img {
+    width: 300px;
+  }
+  body .section .section-container .section-content .left p, body .section .section-container .section-content .right p {
+    font-size: max(3vw, 0.9rem);
+  }
+}
+@media (max-width: 692px) {
+  body .welcome-section {
+    padding-inline: 10px;
+    margin-left: 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+  body .welcome-section p {
+    font-size: 2rem;
+  }
+  body .section {
+    margin-bottom: 100px;
+  }
+  body .section .section-container {
+    padding-inline: 20px;
+    background-color: #fff;
+  }
+  body .section .section-container::before {
+    left: -10px;
+    bottom: -10px;
+    z-index: -1;
+  }
+  body .section .section-container::after {
+    right: -10px;
+    top: -10px;
+    z-index: -1;
+  }
+  body .section .section-container .section-title {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
