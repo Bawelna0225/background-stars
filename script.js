@@ -36,15 +36,11 @@ const createRandomDivs = (amount) => {
     randomDivs.forEach(div => {
       randomTop = getRandomNumber(0, winHeight)
       randomLeft = getRandomNumber(0, winWidth)
-      // randomDegree = Math.floor(parseFloat(getRandomNumber(0, 360)))
-      // randomRadius = getRandomNumber(0, 100)
       divHeight = getRandomNumber(1, 5)   // size of stars
 
       div.style.top = randomTop + 'px'
       div.style.left = randomLeft + 'px'
       div.style.height = divHeight + 'px'
-      // div.style.borderRadius = randomRadius + 'px'
-      // color = `radial-gradient(circle at center, #2220A5, #1311B8)`
       div.style.backgroundColor = 'white'
   })
 }

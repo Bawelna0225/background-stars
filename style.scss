@@ -190,7 +190,6 @@
         align-items: center;
         justify-content: space-between;
         gap: 50px;
-        // flex-wrap: wrap;
         .left, .right{
           p{
             padding-top: 50px;
@@ -237,7 +236,6 @@
   
   @media (max-width: 1120px){
     body{
-      // gap: 100px;
       .section{
         height: max-content;
         .section-container{
@@ -260,7 +258,6 @@
   }
   @media (max-width: 692px){
     body{
-      // background-color: red;
       .welcome-section{
         padding-inline: 10px;
         margin-left: 2vw;
